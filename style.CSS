@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.sidebar{
+    background-color: red;
+    width: 300px;
+    height: 100vw;
+    font-family: "Tektur", sans-serif;
+   
+
+}
+.sidebar nav{
+    padding: 35px;
+    
+}
+
+.sidebar nav li{
+  
+    list-style: none;
+    font-size: 25px;
+    padding: 20px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
+
+.main {
+    background-color: rgb(243, 243, 237);
+    width: 95vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infocontainer{
+    background-color: aqua;
+    height: 58vh;
+    width: 80vw;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Libre Baskerville", serif;
+    font-style: normal;
+}
+
+.devPic{
+    width: 381px;
+    
+    
+
+}
+.devPic img{
+    height: 58vh;
+    border-radius: 200px;
+
+}
+.hello{
+font-size: 60px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Tektur", sans-serif;
+}
+.about{
+    font-size: 40px;
+    margin-top: 15px;
+}
+.moreabout{
+    font-size: 20px;
+    font-family: "Tektur", sans-serif;
+    margin-top: 20px;
+}
+.buttons{
+     margin-top: 30px;
+    
+}
+
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: beige;
+    background-color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: aqua;
+    color: rgb(4, 4, 4);
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* contactcss*/
+.contectform{
+    font-family: "Tektur", sans-serif;
+    padding-top: 100px;
+    padding: 0 35px;
+}
+.contectform h1{
+    padding-top: 100px;
+    
+
+}
+.contectform form{
+    padding-top: 50px;
+    
+    
+}
+.contectform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contectform form div input{
+    width: 20vw;
+    border-radius: 8px;
+    margin: 6px 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 15px;
+    color: blue;
+    margin: 0 5px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 10px;
+    margin: 3px 5px;
+
+}     
+.btn-sm{
+    padding: 8px 10px;
+    border-radius: 20px;
+    color: beige;
+    background-color: blue;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 2px;
+    cursor: pointer;
+}
+/* blogs*/
+.blogItems{
+    margin: 20px;
+    margin-left: 50px;
+    
+}
+.blogItems h2{
+    font-family: "Tektur", sans-serif;
+}
+.blogcontainer h1{
+    font-family: "Tektur", sans-serif;
+    margin: 20px 20px;
+
+}
+.blogItems p{
+    font-family: "Libre Baskerville", serif;
+}
+/* my info*/
+.devInfo h1{
+    font-family: "Tektur", sans-serif;
+    margin: 10px 20px;
+}
+.devInfo h2{
+    font-family: "Tektur", sans-serif;
+    margin: 10px 20px;
+}
+.devInfo p{
+    font-family: "Libre Baskerville", serif;
+    margin: 10px 20px;
+}
+.devInfo li{
+    font-family: "Libre Baskerville", serif;
+    margin-left: 20px;
+}
+.skill_js{
+    height: 10px;
+    width: 90px;
+    background-color: rgb(241, 8, 8);
+    margin: 5px 40px;
+    border: 2px solid black;
+}
+.skill_html{
+    height: 10px;
+    width: 200px;
+    background-color: rgb(241, 8, 8);
+    margin: 5px 40px;
+    border: 2px solid black;
+
+    
+}
+.skill_css{
+    height: 10px;
+    width: 200px;
+    background-color: rgb(241, 8, 8);
+    margin: 5px 40px;
+    border: 2px solid black;
+
+}
+.skill_django{
+    height: 10px;
+    width: 150px;
+    background-color: rgb(241, 8, 8);
+    margin: 5px 40px;
+    border: 2px solid black;
+
+}
+.skill_python{
+    height: 10px;
+    width: 120px;
+    background-color: rgb(241, 8, 8);
+    margin: 5px 40px;
+    border: 2px solid black;
+
+}
+.skill_java{
+    height: 10px;
+    width: 50px;
+    background-color: rgb(241, 8, 8);
+    margin: 5px 40px;
+    border: 2px solid black;
+
+}
+.projects{
+    
+    font-family: "Tektur", sans-serif;
+    height: 200px;
+    width: 200px;
+    margin-right: 200px;
+    margin-top: 200px;
+    
+    
+}
+.btn-sm_vs{
+    width: 100px;
+    margin-top: 50px;
+}
+/*project*/
+/* Center the heading */
+.project_headding {
+    text-align: center;
+    font-family: "Tektur", sans-serif;
+    margin-top: 40px;
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  /* Projects Container */
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 20px; /* Space between boxes */
+  }
+  
+  /* Individual Project Box */
+  .project {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: calc(33.33% - 40px); /* Three boxes in a row with gap */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project h3 {
+    font-family: "Tektur", sans-serif;
+    font-size: 1.5em;
+    color: #0073e6;
+    margin-bottom: 10px;
+  }
+  
+  .project p {
+    font-family: "Libre Baskerville", serif;
+    color: #666;
+    line-height: 1.6;
+  }
